@@ -2,4 +2,4 @@ env
 db.sqlite3
 _pycache_
 _init_.py
- 
+.vscode 
