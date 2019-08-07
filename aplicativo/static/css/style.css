@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'nav' 'nav' 'nav' 'nav'
+                          'header' 'header' 'header' 'header'
+                          'main' 'main' 'main' 'main' 
+                          'footer' 'footer' 'footer' 'footer';
+    grid-template-rows: 20vh 45vh 40vh 30vh ;
+    
+}
+nav {
+    background-color: black;
+    grid-area: 'nav';
+ 
+}
+header{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    grid-area: 'header';
+}
+main{
+    background-color: aqua;
+    display: flex;
+    grid-area: 'main';
+    justify-content: space-between;
+}
+footer{
+    background-color: red;
+    display: flex;
+    grid-area: 'footer';
+}
