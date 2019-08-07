@@ -1,0 +1,32 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block titulo  %}{% endblock  %}</title>
+    {% block css %} {% endblock %}
+</head>
+<body>
+<header>
+    <nav id="Menu">
+        <ul>
+            <img src="" alt="">
+            <li class="inicial">
+                <a href="/">Inicio</a>
+            </li>
+            <li>
+                <a href="/pontodecoletas">Ponto de Coletas</a>
+            </li>
+            <li>
+                <a href="/resultados">Resultados</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+{% block conteudo %} {% endblock %}
+    
+</body>
+</html>
