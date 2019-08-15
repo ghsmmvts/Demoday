@@ -46,11 +46,20 @@ section{
     background-size: cover;
     background-repeat: no-repeat;
     grid-area: 'section';
+    
 }
 
 main{
     background-color: aquamarine;
     grid-area: 'main';
+}
+main div mapouter{
+    align-items:center; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
 }
 
 .abc{
@@ -66,24 +75,39 @@ main{
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: rgb(41, 221, 86);
     display: flex;
     grid-area: 'footer';
+    flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .info{
     display: flex;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+}
+.info a{
+    color: white;
+    display: flex;
+    text-decoration: none;
+   
+
 }
 
 .sociais img{
     height: 60px;
     width: 60px;
+ 
+
 }
 
 .sociais{
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 50px;
+    width: 60px;
 }
