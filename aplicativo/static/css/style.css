@@ -5,7 +5,7 @@ body{
                           'section' 'section' 'section' 'section'                        
                           'main' 'main' 'main' 'main' 
                           'footer' 'footer' 'footer' 'footer';
-    grid-template-rows: 10vh 60vh 90vh 30vh ;
+    grid-template-rows: 10vh 68vh 90vh 30vh ;
     margin: 0;    
 }
 
@@ -41,12 +41,14 @@ header{
 }
 
 section{
-    /* escolher o banner em imagem */
-    background-image: url(/static/img/banner.jpg);
+    background-image: url(/static/img/bannerc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
     grid-area: 'section';
-    
+    height: 450px;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 main{
@@ -100,8 +102,6 @@ footer{
 .sociais img{
     height: 60px;
     width: 60px;
- 
-
 }
 
 .sociais{
