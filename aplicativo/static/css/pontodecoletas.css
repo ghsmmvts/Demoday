@@ -1,7 +1,7 @@
-aside{
-    grid-area: 'section';
-}
-
 main{
     grid-area: 'main';
+}
+
+aside{
+    grid-area: 'section';
 }
