@@ -1,15 +1,16 @@
 {% load static %}
-
+{% block Inicio %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="{% static 'img/logo1.png' %}" type="img-png">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <title>{% block titulo  %}{% endblock  %}</title>
-    {% block css %} {% endblock %}
-</head>
+    <link rel="stylesheet" href="{% static 'css/responsivo.css' %}">
+{% endblock %}
+{% block titulo  %} <title>Demoday</title> {% endblock  %}
 <body>
 <header>
     <nav id="Menu">

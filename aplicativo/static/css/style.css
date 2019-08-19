@@ -36,7 +36,7 @@ header{
 
 #Menu ul li a{
     color: black;
-    font-size: 40px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -85,7 +85,6 @@ footer{
     grid-area: 'footer';
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .info{
@@ -99,8 +98,6 @@ footer{
     color: black;
     display: flex;
     text-decoration: none;
-   
-
 }
 
 .sociais img{
@@ -115,3 +112,4 @@ footer{
     width: 50px;
     width: 60px;
 }
+

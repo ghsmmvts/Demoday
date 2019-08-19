@@ -1,0 +1,67 @@
+
+
+@media (max-width: 720px){
+    body{
+        display: grid;
+        grid-template-areas:  'header' 'header' 'header' 'header'
+                              'section' 'section' 'section' 'section'                        
+                              'main' 'main' 'main' 'main' 
+                              'footer' 'footer' 'footer' 'footer';
+        grid-template-rows: 10vh 40vh 110vh 09vh ;
+        margin: 0;
+        width: 100%;    
+    } 
+
+    header{
+        display: flex;
+        background-color: rgb(48, 240, 193);
+        grid-area: 'header';
+        justify-content: space-around;
+    }
+
+    #Menu ul li a{
+        color: black;
+        font-size: 10px;
+        text-decoration: none;
+    }
+
+    section{
+        background-image: url(/static/img/bannerc.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        grid-area: 'section';
+        height: 255px;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    main{
+        background-color: aquamarine;
+        grid-area: 'main';
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer{
+        background-color: rgb(181, 253, 254);
+        display: flex;
+        grid-area: 'footer';
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .info a{
+        color: black;
+        display: flex;
+        font-size: 09pt;
+        text-decoration: none;
+    }
+
+    .sociais img{
+        height: 35px;
+        width: 35px;
+    }
+}
