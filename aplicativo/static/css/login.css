@@ -1,0 +1,26 @@
+/* body{
+    display: grid;
+    grid-template-areas:  'header' 'header' 'header' 'header'
+                          'aside' 'aside' 'aside' 'aside'
+                          'footer' 'footer' 'footer' 'footer';
+    grid-template-rows: 10vh 90vh 10vh;
+    margin: 0;    
+}
+
+aside{
+    align-items: center;
+    display: flex;
+    background-color: rgb(48, 240, 193);
+    grid-area: 'header';
+    justify-content: center;
+}
+
+aside form{
+    align-items: center;
+    background-color: rgb(181, 253, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+} */
