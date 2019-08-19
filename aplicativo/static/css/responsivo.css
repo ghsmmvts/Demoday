@@ -19,7 +19,15 @@
         justify-content: space-around;
     }
 
+    #Menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        width: 50%; 
+    }
+
     #Menu ul li a{
+        /* border-right: solid 1px black; */
         color: black;
         font-size: 10px;
         text-decoration: none;

@@ -9,6 +9,11 @@ body{
     margin: 0;    
 }
 
+body::-webkit-scrollbar{
+    background: transparent;
+    width: 0px;
+}
+
 header{
     display: flex;
     background-color: rgb(48, 240, 193);
@@ -31,7 +36,15 @@ header{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
-    width: 65%; 
+    width: 40%; 
+}
+
+#Menu ul li{
+    align-items: center;
+    border-right: solid 1px black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #Menu ul li a{
