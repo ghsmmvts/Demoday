@@ -10,3 +10,6 @@ def pontodecoletas(request):
 
 def resultados(request):
     return render(request, 'resultados.html')
+
+def login(request):
+    return render(request,'login.html')
