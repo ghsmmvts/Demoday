@@ -1,18 +1,22 @@
-body{
-    margin: 0;
-    background-color: red;
-}
-
-section{
+article{
     align-items: center;
     display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 100vw;
+    flex-direction: column;
 }
 
-section div{
-    height: 50%;
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto{
+    display: flex;
+    height: 100px;
     text-align: center;
-    width: 100vw;
+    width: 40vw;
+}
+
+article div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }

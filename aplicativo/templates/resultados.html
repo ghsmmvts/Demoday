@@ -1,4 +1,21 @@
 {% extends 'shared/layout.html'%}
+
+{% load staticfiles %}
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/resultados.css' %}">
+{% endblock %}
+
 {% block conteudo %}
-<h1>Oi</h1>
+<article>
+    <div class="texto">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam voluptate non veniam, minima quidem libero nulla ratione ad, perferendis unde consequuntur incidunt debitis eaque necessitatibus obcaecati mollitia at molestiae quaerat!
+        </p>
+    </div>
+    <div>
+        <h4>Medicamentos descartados</h4>
+        
+    </div>
+</article>
 {% endblock %}
