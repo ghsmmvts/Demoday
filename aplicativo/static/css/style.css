@@ -104,6 +104,7 @@ footer{
     grid-area: 'footer';
     flex-direction: row;
     justify-content: space-around;
+    height: 65.69px;
 }
 
 .info{
