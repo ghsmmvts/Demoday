@@ -1,5 +1,6 @@
 article{
     align-items: center;
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
 }
@@ -7,6 +8,12 @@ article{
 h4{
     font-family: 'Open Sans', sans-serif;
 }
+
+.nsei{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}   
 
 .texto{
     display: flex;

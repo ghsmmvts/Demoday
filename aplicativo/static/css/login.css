@@ -1,6 +1,12 @@
-
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+}
 
 aside{
+    display: flex;
     align-items: center;
     display: flex;
     background-color: rgb(48, 240, 193);
@@ -10,15 +16,15 @@ aside{
 
 aside form{
     align-items: center;
-    background-color: rgb(181, 253, 254);
+    background-color: #303F40;
+    border-radius: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 70%;
-    width: 70%;
+    width: 30%;
 }
 
 main{
-    background-color: rgb(48, 240, 193);
     grid-area: 'main';
 }

@@ -1,23 +1,24 @@
 {% extends 'shared/layout.html'%}
 {% block conteudo %}
+
+{% load staticfiles %}
+
+
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock %}
+
 <aside>
     <form action="">
         <div class="acesso">
-            <h1>Login:</h1>
-            <p>
-                Faça seu login em nosso site.
-            </p>
+            <h1>Login</h1>
         </div>
         <div class="input">
-            <label for="">Email</label>
-            <input type="email" name="" id="email">
-            <label for="">Senha</label>
-            <input type="password" name="" id="senha">
+            <input type="email" name="" id="email" placeholder="Email">
+            <input type="password" name="" id="senha" placeholder="Senha">
             <input type="button" value="Enviar">
         </div>
     </form>
 </aside>
-<main>
     
-</main>
 {% endblock %}
